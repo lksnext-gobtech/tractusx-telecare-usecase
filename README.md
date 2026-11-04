@@ -1,6 +1,6 @@
 # tractusx-telecare-usecase
 
-Prueba de concepto de un espacio de datos de **teleasistencia** inspirado en [Eclipse Tractus-X](https://eclipse-tractusx.github.io/), realizada como Trabajo de Fin de Grado (UNIR).
+Espacio de datos de **teleasistencia** inspirado en [Eclipse Tractus-X](https://eclipse-tractusx.github.io/).
 
 El proyecto simula el intercambio de datos de eventos de teleasistencia (caídas, niveles de oxígeno, etc.) entre dos organizaciones a través de un espacio de datos soberano real: los datos se generan, se enriquecen semánticamente (HL7 FHIR), se publican y se consumen mediante un **Eclipse Dataspace Connector (EDC)** desplegado sobre **Tractus-X Umbrella**, y finalmente se analizan — igual que ocurriría en un caso de uso real de intercambio de datos de salud entre proveedores.
 
@@ -30,6 +30,18 @@ El flujo es: `generator` → `semantic-adapter` → `dataspace-connector` (publi
 - [infra-notes/UMBRELLA-SETUP.md](infra-notes/UMBRELLA-SETUP.md) — instalación de Tractus-X Umbrella (Minikube + Helm) en el VPS.
 - [infra-notes/PORTAL-DATA-EXCHANGE.md](infra-notes/PORTAL-DATA-EXCHANGE.md) — ampliación del despliegue con el subset de Data Exchange (los dos EDC usados por `dataspace-connector`).
 - [infra-notes/GUACAMOLE.md](infra-notes/GUACAMOLE.md) — acceso remoto de escritorio al VPS vía navegador.
+
+## Funding / Financiación
+
+<p align="center">
+  <img src="docs/img/logos-prtr.png" alt="Financiado por la Unión Europea – NextGenerationEU · Gobierno de España – Ministerio para la Transformación Digital y de la Función Pública · Plan de Recuperación, Transformación y Resiliencia" width="800">
+</p>
+
+This repository is a result of the project **ZAINDATA: data bridge for the unified care of people** (file no. TSI-100121-2024-20). The project is funded by the **Ministry for Digital Transformation and Civil Service** of the Government of Spain, within the **Recovery, Transformation and Resilience Plan**, under the call for demonstrators and use cases of sectoral data spaces. It is **funded by the European Union – NextGenerationEU**.
+
+Este repositorio es un resultado del proyecto **ZAINDATA: puente de datos para el cuidado unificado de las personas** (expediente TSI-100121-2024-20). El proyecto está financiado por el **Ministerio para la Transformación Digital y de la Función Pública** del Gobierno de España, en el marco del **Plan de Recuperación, Transformación y Resiliencia**, dentro de la convocatoria de demostradores y casos de uso de espacios de datos sectoriales. Está **financiado por la Unión Europea – NextGenerationEU**.
+
+Beneficiary / Entidad beneficiaria: **LKS Next GobTech Euskadi S.Coop.** · Project website / Web del proyecto: <https://www.zaindata.es>
 
 ## Licencia
 
