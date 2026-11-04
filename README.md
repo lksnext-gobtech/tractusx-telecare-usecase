@@ -34,7 +34,7 @@ El flujo es: `generator` → `semantic-adapter` → `dataspace-connector` (publi
 ## Funding / Financiación
 
 <p align="center">
-  <img src="docs/img/logos-prtr.png" alt="Financiado por la Unión Europea – NextGenerationEU · Gobierno de España – Ministerio para la Transformación Digital y de la Función Pública · Plan de Recuperación, Transformación y Resiliencia" width="800">
+  <img src="https://www.zaindata.es/wp-content/uploads/2026/03/logos2-1-1024x131.png" alt="Financiado por la Unión Europea – NextGenerationEU · Gobierno de España – Ministerio para la Transformación Digital y de la Función Pública · Plan de Recuperación, Transformación y Resiliencia" width="800">
 </p>
 
 This repository is a result of the project **ZAINDATA: data bridge for the unified care of people** (file no. TSI-100121-2024-20). The project is funded by the **Ministry for Digital Transformation and Civil Service** of the Government of Spain, within the **Recovery, Transformation and Resilience Plan**, under the call for demonstrators and use cases of sectoral data spaces. It is **funded by the European Union – NextGenerationEU**.
